@@ -1,65 +1,68 @@
-# react-admin-dashboard v2.0
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Live demo**: [https://llorentegerman.github.io/react-admin-dashboard/](https://llorentegerman.github.io/react-admin-dashboard/)
+## Available Scripts
 
-This UI is based on the following Figma design:
-https://www.figmafreebies.com/download/figma-admin-dashboard-ui-kit/
+In the project directory, you can run:
 
-Although the code has been totally refactored, in order to use of functional components, hooks and integrated 100% with react-router, you can still find the original project post here "Building a UI from scratch, based on a design with ReactJS" [here](POST.md) or [here](https://dev.to/llorentegerman/building-a-ui-from-scratch-based-on-a-design-with-reactjs-3l1e).
+### `npm start`
 
-## Folder Structure
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### base folder: /src:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
--   **/assets**:
-    /icons: SVGs icons
-    other assets (i.e. images)
+### `npm test`
 
--   **/components**:
-    generic components, or components that will be used by multiple routes
-    i.e.: form components, tables, cards
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
--   **/hooks**:
-    every hook should be in this folder, and its name should start with the prefix "use":
-    i.e.: useSidebar, useQuery, etc.
+### `npm run build`
 
--   **/resources**:
-    -   slugs.js: a list of the routes that will be used in the app
-    -   theme.js: an object with the theme structure, colors, typographies.
-    -   utilities.js: any utility function, for example "convertSlugToUrl", which is used in conjunction with "history.push" (react router) for redirects and links.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--   **/routes**:
-    We have 2 types of routes, public and private.
-    public: are all those that do not require the user to be logged into the app, such as Login, Signup, etc.
-    private: to access these routes the user must be logged in.
-    Each main section of the application has its own route:
-    -   auth (for login, signup, etc)
-    -   dashboard
-    -   overview
-    -   tickets
-    -   ideas
-    -   contacts
-    -   agents
-    -   articles
-    -   settings
-    -   subscription
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Current dependencies:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[react-hook-form](https://www.npmjs.com/package/react-hook-form): form handling.
+### `npm run eject`
 
-[react-jss](https://www.npmjs.com/package/react-jss): styles.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-[react-router-dom](https://www.npmjs.com/package/react-router-dom): routing.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[simple-flexbox](https://www.npmjs.com/package/simple-flexbox): flexbox utility.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## License
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-This software is released under the [MIT License](https://github.com/llorentegerman/react-admin-dashboard/blob/master/LICENSE).
+## Learn More
 
-## Author
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![me](https://avatars3.githubusercontent.com/u/21162888?s=100&v=4)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-[Germán Llorente](https://github.com/llorentegerman)
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
