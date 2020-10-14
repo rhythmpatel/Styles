@@ -1,8 +1,8 @@
 {
-  "name": "buildrelease",
+  "name": "pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://styles.iservice.info/buildrelease/",
+  "homepage": "http://styles.iservice.info/pages/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -e buildrelease -d build",
+    "deploy": "gh-pages -e pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
