@@ -1,0 +1,20 @@
+export default {
+    // private
+    dashboard: '/dashboard',
+    buttons: '/buttons',
+    charts: '/charts',
+    colors: '/colors',
+	errormessages: '/error-messages',
+	forminput:'/form-input',
+    icons: '/icons',
+    loaders: '/loader-and-loadings',
+    logos: '/logos',
+    links: '/notifications-and-tooltip',
+    panels: '/panels',
+	richtext: '/rich-text-editor',
+	table: '/tables',
+	tabs: '/tabs',
+	timeline: '/timeline',
+	treeview: '/treeview',
+	typography: '/typography',
+};
