@@ -12,13 +12,13 @@ const useStyles = createUseStyles({
     },
     mainBlock: {
         marginLeft: 255,
-        padding: 30,
+        padding: 15,
         '@media (max-width: 1080px)': {
             marginLeft: 0
         }
     },
     contentBlock: {
-        marginTop: 54
+        marginTop: 15
     }
 });
 

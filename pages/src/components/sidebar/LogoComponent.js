@@ -22,7 +22,7 @@ function LogoComponent() {
     return (
         <Row className={classes.container} horizontal='center' vertical='center'>
             <IconLogo />
-            <span className={classes.title}>StylesGuide</span>
+            <span className={classes.title}>Styles</span>
         </Row>
     );
 }

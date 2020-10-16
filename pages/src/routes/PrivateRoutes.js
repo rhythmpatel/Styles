@@ -2,8 +2,9 @@ import React, { Suspense, lazy } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import SLUGS from '../resources/slugs';
 import LoadingComponent from '../components/loading';
-
+import ButtonComponent from '../components/pages/ButtonComponent';
 const DashboardComponent = lazy(() => import('./dashboard'));
+
 
 function PrivateRoutes() {
     return (
@@ -11,7 +12,7 @@ function PrivateRoutes() {
             <Switch>
 		
                 <Route exact path={SLUGS.dashboard} component={DashboardComponent} />
-                <Route exact path={SLUGS.buttons} render={() => <div></div>} />
+                <Route exact path={SLUGS.buttons} component={ButtonComponent}/>
                 <Route exact path={SLUGS.charts} render={() => <div></div>} />
                 <Route exact path={SLUGS.colors} render={() => <div></div>} />
                 <Route exact path={SLUGS.errormessages} render={() => <div></div>} />
