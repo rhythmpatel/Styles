@@ -5,6 +5,9 @@ import { ThemeProvider } from 'react-jss';
 import Theme from './resources/theme';
 import Routes from './routes';
 import './index.scss';
+import './button.scss';
+import './table.scss';
+import './tab.scss';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

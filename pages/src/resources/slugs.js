@@ -1,6 +1,4 @@
 export default {
-    // private
-    dashboard: '/page/dashboard',
     buttons: '/page/buttons',
     charts: '/page/charts',
     colors: '/page/colors',

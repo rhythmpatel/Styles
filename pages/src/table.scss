@@ -1,0 +1,16 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-bordered {
+    border: 1px solid #f4f4f4;
+}
+.table-responsive .table {
+    width: 100% !important;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #f4f4f4;
+	padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}

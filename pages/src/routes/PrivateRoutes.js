@@ -10,8 +10,6 @@ function PrivateRoutes() {
     return (
         <Suspense fallback={<LoadingComponent loading />}>
             <Switch>
-		
-                <Route exact path={SLUGS.dashboard} component={DashboardComponent} />
                 <Route exact path={SLUGS.buttons} component={ButtonComponent}/>
                 <Route exact path={SLUGS.charts} render={() => <div></div>} />
                 <Route exact path={SLUGS.colors} render={() => <div></div>} />
@@ -28,7 +26,7 @@ function PrivateRoutes() {
 				<Route exact path={SLUGS.timeline} render={() => <div></div>} />
 				<Route exact path={SLUGS.treeview} render={() => <div></div>} />
 				<Route exact path={SLUGS.typography} render={() => <div></div>} />
-                <Redirect to={SLUGS.dashboard} />
+                <Redirect to={SLUGS.buttons} />
             </Switch>
         </Suspense>
     );
