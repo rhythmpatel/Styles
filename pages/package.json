@@ -2,7 +2,7 @@
   "name": "pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://styles.iservice.info/pages/",
+  "homepage": "http://rhythmpatel.github.io/iservice",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
