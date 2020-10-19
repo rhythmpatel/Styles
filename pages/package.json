@@ -1,6 +1,6 @@
 {
   "name": "pages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "http://styles.iservice.info/pages/",
   "dependencies": {
@@ -25,7 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
+    "predeploy": "npm run deploy",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
