@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-jss": "^10.4.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^3.4.3",
     "react-svg-line-chart": "^2.0.1",
     "simple-flexbox": "^2.3.1",
     "styled-components": "^4.3.2"
