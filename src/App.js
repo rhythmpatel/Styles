@@ -1,9 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import Theme from "./resources/theme";
+import {BrowserRouter as Router} from "react-router-dom";
+import Routes from "./routes";
+import {ThemeProvider} from "theming";
+import React from "react";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+export default class App extends React.Component {
+  render() {
+    return (
+        <ThemeProvider theme={Theme}>
+          <Router>
+            <Routes />
+          </Router>
+        </ThemeProvider>
+    );
+  }
+}

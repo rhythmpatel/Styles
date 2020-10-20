@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import useWindowSize from '../hooks/useWindowSize';
 import PrivateSection from './PrivateSection';
 //import PublicRoutes from './PublicRoutes';
+// import { Redirect, Route, Switch } from 'react-router-dom';
 
 function Routes() {
     const { pathname } = useLocation();
