@@ -1,9 +1,11 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense,
+    // lazy
+} from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import SLUGS from '../resources/slugs';
 import LoadingComponent from '../components/loading';
 import ButtonComponent from '../components/pages/ButtonComponent';
-const DashboardComponent = lazy(() => import('./dashboard'));
+// const DashboardComponent = lazy(() => import('./dashboard'));
 
 
 function PrivateRoutes() {
