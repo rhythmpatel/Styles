@@ -32,7 +32,13 @@ function SidebarComponent() {
             <div style={{ paddingTop: 30, paddingBottom: 30 }}>
                 <LogoComponent />
             </div>
-          
+
+            <MenuItem
+                id={SLUGS.dashboard}
+                title='Dashboard'
+                icon=''
+                onClick={() => onClick(SLUGS.dashboard)}
+            />
             <MenuItem
                 id={SLUGS.buttons}
                 title='Buttons'

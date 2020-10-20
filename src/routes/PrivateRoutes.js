@@ -12,6 +12,7 @@ function PrivateRoutes() {
     return (
         <Suspense fallback={<LoadingComponent loading />}>
             <Switch>
+                <Route exact path={SLUGS.dashboard} render={() => <div>Dashboard</div>}/>
                 <Route exact path={SLUGS.buttons} component={ButtonComponent}/>
                 <Route exact path={SLUGS.charts} render={() => <div></div>} />
                 <Route exact path={SLUGS.colors} render={() => <div></div>} />
